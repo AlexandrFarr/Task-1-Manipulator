@@ -27,7 +27,7 @@ int main()
     cout << "Введите точку y= ";
     cin >> p2;
 
-    // creatind a point 
+    // creating a point 
     Point* pDot = new Point (p1,p2);
 
     
