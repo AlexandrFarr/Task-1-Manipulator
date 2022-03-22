@@ -16,6 +16,7 @@ void Manipulator::setRadius(double cRadius)
 	radius = cRadius;
 }
 
+// check of entry into the radius of the operation of the manipulator
 bool Manipulator::proverkaEntry(double cX, double cY)
 {
 	if ( pow((this->get_x()-cX ),2)+pow((this->get_y()-cY),2)<=pow(radius,2)) {
@@ -29,7 +30,7 @@ bool Manipulator::proverkaEntry(double cX, double cY)
 void Manipulator::entry_x_y_r()
 {
 	double x, y, r;
-	cout << "Ââåäèòå êîîğäèíàòû è ğàäèóñ ğàáîòû ìàíèïóëÿòîğà" << endl;;
+	cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ ÃªÃ®Ã®Ã°Ã¤Ã¨Ã­Ã Ã²Ã» Ã¨ Ã°Ã Ã¤Ã¨Ã³Ã± Ã°Ã Ã¡Ã®Ã²Ã» Ã¬Ã Ã­Ã¨Ã¯Ã³Ã«Ã¿Ã²Ã®Ã°Ã " << endl;;
 	cout << " x = ";
 	cin >> x;
 	cout << " y = ";
