@@ -52,7 +52,7 @@ int main()
             if ((M1->proverkaEntry(pDot->get_x(), pDot->get_y()) == true && M2->proverkaEntry(pDot->get_x(), pDot->get_y()) == true) or (M1->proverkaEntry(pDot->get_x(), pDot->get_y()) == false && M2->proverkaEntry(pDot->get_x(), pDot->get_y()) == false))
             {
 
-                if ((sqrt((pow((pDot->get_x() - M1->get_x()), 2) + pow((pDot->get_y() - M1->get_y()), 2))) - M1->getRadius()) <= (sqrt((pow((pDot->get_x() - M2->get_x()), 2) + pow((pDot->get_y() - M2->get_y()), 2))) - M2->getRadius()))
+                if (abs((sqrt((pow((pDot->get_x() - M1->get_x()), 2) + pow((pDot->get_y() - M1->get_y()), 2))) - M1->getRadius())) <= abs((sqrt((pow((pDot->get_x() - M2->get_x()), 2) + pow((pDot->get_y() - M2->get_y()), 2))) - M2->getRadius())))
                 {
                     cout << "Наиболее эффективный первый манипулятор " << endl;
                 }
