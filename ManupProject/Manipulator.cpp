@@ -30,7 +30,7 @@ bool Manipulator::proverkaEntry(double cX, double cY)
 void Manipulator::entry_x_y_r()
 {
 	double x, y, r;
-	cout << "Ââåäèòå êîîðäèíàòû è ðàäèóñ ðàáîòû ìàíèïóëÿòîðà" << endl;;
+	cout << "entry x, y and radius of manipulator" << endl;;
 	cout << " x = ";
 	cin >> x;
 	cout << " y = ";
