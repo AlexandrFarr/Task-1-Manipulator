@@ -16,7 +16,7 @@ int main()
     //setting coordinates and radius
     cout << "Настройки первого манипулятора :" << endl;
     M1->entry_x_y_r();
-    cout << "\n Настройки второго манипулятора :" << endl;
+    cout << " Настройки второго манипулятора :" << endl;
     M2->entry_x_y_r();
 
     double p1,p2;
